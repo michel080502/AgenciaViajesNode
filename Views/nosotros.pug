@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido 
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg" alt="Imagen sobre nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote En nuestra agencia creemos que viajar no solo es trasladarse de un lugar a otro, sino vivir experiencias que dejan huella. Nuestro compromiso es diseñar cada recorrido pensando en tus intereses, gustos y sueños, para que cada viaje sea único y memorable.
+
+                p Con años de experiencia en la industria del turismo, nuestro equipo de expertos trabaja incansablemente para ofrecerte destinos exclusivos, alojamientos de calidad y actividades que te conecten con la cultura local. Ya sea que busques aventura, relajación o exploración cultural, tenemos el viaje perfecto para ti.
+
+                p Nos enorgullece brindar un servicio personalizado, asesorándote en cada paso del proceso, desde la planificación hasta el regreso a casa. Tu satisfacción es nuestra prioridad, y nos esforzamos por superar tus expectativas en cada viaje que organizamos.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg" alt="icono de seguridad" class="img-fluid mb-4")
+                    h3 Seguridad
+                    p Tu seguridad es nuestra prioridad. Trabajamos con los mejores proveedores para garantizarte un viaje seguro.
+                .col-md-4
+                    img(src="img/icono_destinos.svg" alt="icono de destinos" class="img-fluid mb-4")
+                    h3 Mejores Destinos
+                    p Trabajamos arduamente para ofrecerte los destinos más exclusivos y fascinantes del mundo.
+                .col-md-4
+                    img(src="img/icono_precios.svg" alt="icono de precios" class="img-fluid mb-4")
+                    h3 Mejores precios
+                    p Te ofrecemos las tarifas más competitivas del mercado, sin sacrificar la calidad de nuestros servicios.
